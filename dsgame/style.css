@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@300;400;500;600;700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+*:focus, *:focus-visible{
+  outline: none;
+}
+
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+  background: #222;
+  font-family: 'VT323', monospace !important;
+}
+
+#canvas{
+  padding: 1rem 5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  background: #111;
+  border-radius: 10px;
+  box-shadow: 0 0 10px #000;
+}
